@@ -7,7 +7,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Link](#link)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -27,9 +27,9 @@ Users should be able to:
 
 ![Page Screenshot](./images/screenshot.jpg)
 
-### Link
+### Links
 
-- Solution URL: [Solution page on Frontend Mentor]()
+- Solution URL: [Solution page on Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-GF9oYoX8F)
 - Github Pages URL: [Github Pages](https://rachmatilham.github.io/3-column-preview-card-component-main/)
 
 ## My process
