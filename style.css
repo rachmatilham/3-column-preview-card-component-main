@@ -1,0 +1,126 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --trans-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--very-light-gray);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 85px 25px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+main section {
+  padding: 50px;
+}
+
+main section.a {
+  background-color: var(--bright-orange);
+}
+
+main section.b {
+  background-color: var(--dark-cyan);
+}
+
+main section.c {
+  background-color: var(--very-dark-cyan);
+}
+
+main h2 {
+  color: var(--very-light-gray);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+
+main p {
+  color: var(--trans-white);
+  line-height: 1.6;
+  padding-bottom: 25px;
+}
+
+main button {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+  border: 2px solid var(--very-light-gray);
+}
+
+main button.a {
+  background-color: var(--very-light-gray);
+  color: var(--bright-orange);
+}
+
+main button.b {
+  background-color: var(--very-light-gray);
+  color: var(--dark-cyan);
+}
+
+main button.c {
+  background-color: var(--very-light-gray);
+  color: var(--very-dark-cyan);
+}
+
+/* RESPONSIVE DESIIGN */
+
+@media (min-width: 992px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    margin: 18vh auto 0;
+    max-width: 64vw;
+  }
+
+  main section {
+    height: 505px;
+    width: 310px;
+    padding: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  main h2 {
+    font-size: 2.5em;
+  }
+
+  main button.a:hover {
+    background-color: var(--bright-orange);
+    color: var(--very-light-gray);
+  }
+
+  main button.b:hover {
+    background-color: var(--dark-cyan);
+    color: var(--very-light-gray);
+  }
+
+  main button.c:hover {
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-gray);
+  }
+
+  footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}
