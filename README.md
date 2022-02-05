@@ -51,5 +51,5 @@ Every container's corner should be round even after the page is zoomed out.
 
 ## Author
 
-- Website - [Github](https://github.com/rachmatilham/)
+- Github - [Rachmat Ilham Maulana](https://github.com/rachmatilham/)
 - Frontend Mentor - [@rachmatilham](https://www.frontendmentor.io/profile/rachmatilham)

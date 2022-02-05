@@ -42,7 +42,7 @@ main section.c {
   background-color: var(--very-dark-cyan);
 }
 
-main h2 {
+main h1 {
   color: var(--very-light-gray);
   font-family: "Big Shoulders Display", cursive;
   font-size: 2.2em;
@@ -80,13 +80,21 @@ main button.c {
   color: var(--very-dark-cyan);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 /* RESPONSIVE DESIIGN */
 
 @media (min-width: 992px) {
   main {
     display: flex;
     flex-direction: row;
-    margin: 18vh auto 0;
+    margin: 21vh auto 0;
     max-width: 64vw;
   }
 
@@ -99,7 +107,7 @@ main button.c {
     justify-content: space-between;
   }
 
-  main h2 {
+  main h1 {
     font-size: 2.5em;
   }
 
